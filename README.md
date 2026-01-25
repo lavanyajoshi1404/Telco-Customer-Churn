@@ -90,5 +90,81 @@ The following models were experimented with:
 
 ---
 
-## 📊 Model E
+## 📊 Model Evaluation
+
+The model was evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+**Final Model Performance (XGBoost):**
+
+* Achieved strong balance between precision and recall
+* Effectively identified high-risk churn customers
+
+---
+
+## 🚀 Model Deployment (Streamlit App)
+
+The trained model is deployed using **Streamlit**, allowing users to:
+
+* Enter customer details via an interactive UI
+* Get instant churn prediction (Churn / Stay)
+* View churn probability percentage
+
+### 🔮 Application Features
+
+* User-friendly sidebar input form
+* Real-time prediction
+* Probability-based confidence score
+* Clean and responsive UI
+
+---
+
+## 📁 Project Structure
+
+```
+├── Telco-Customer-Churn.csv
+├── Telco_Customer_Churn.ipynb
+├── app.py
+├── churn_model.pkl
+├── scaler.pkl
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 📈 Key Insights
+
+* Long-term contract customers are less likely to churn
+* Customers without tech support and online security churn more
+* Higher monthly charges increase churn probability
+* Tenure is one of the strongest predictors of customer retention
+
+---
+
+## 🔮 Future Enhancements
+
+* Add more customer features for improved prediction
+* Perform hyperparameter tuning for further optimization
+* Deploy the application on Streamlit Cloud / AWS
+* Integrate dashboard for churn analytics and monitoring
+
+---
+
+## 👩‍💻 Author
+
+**Lavanya**
+Engineering Student | Aspiring Software Developer & Machine Learning Enthusiast
+
+---
+
+## 📜 License
+
+This project is intended for educational and learning purposes only.
+
 
